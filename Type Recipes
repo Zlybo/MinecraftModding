@@ -1,0 +1,71 @@
+Shaped = Crafteable con items---------------------------------------------------- 
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "S#S",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "zlybomod:amethyst"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "zlybomod:amethyst_ore",
+    "count": 9
+  }
+}
+
+Crafteable con un solo item--------------------------------------------------------
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 9
+  }
+}
+-------------or--------------------
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 2
+  }
+} 
+Crafteable en el horno--------------------------------------------------------------
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": "minecraft:brick",
+  "experience": 0.3,
+  "cookingtime": 200
+} 
+Crafteable en alto horno---------------------------------------------------
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": "minecraft:brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}
